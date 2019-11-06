@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page with Some other ways</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  	body{
+  		background-image: url(E:/project/photo.jpeg);
+  		background-size: 50%;
+  		
+  		
+  	}
+  	footer{
+  		
+  		background-color: black;
+        color:white;
+        font-size: 20px;
+        padding-top: 10px;
+  		height: 50px;
+  		margin-top: 350px;
+  	}
+  	.login-form{
+  		height: 450px;
+  		width: 385px;
+		margin: 30px auto;
+  		margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+
+  	}
+  	 .login-form h2 {
+        margin: 0 0 15px;
+    }
+      .form-control, .login-btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .input-group-addon .fa {
+        font-size: 18px;
+    }
+    .login-btn {
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #517fa4;
+    }
+       .or-seperator {
+        margin-top: 20px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }  
+.social-btn .btn{
+	border:none;
+
+	margin:10px,3px,0px;
+	margin-top: -200px;
+	opacity: 1;}
+	.social-btn :.btn-hover{
+opacity: 0.9;
+	}
+.social-btn .btn-primary{
+	background-color: #3b5998;
+}
+.social-btn .btn-danger{
+	background-color: #dc4e41;
+}
+.social-btn .btn-info{
+	background-color: #55acee;}
+
+	.navbar {
+ 
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  </style>
+
+
+</head>
+<body>
+
+	
+
+	<form>
+<div class="login-form" style="margin-top: 80px;">
+
+	<h2 class="text-center">Login </h2>
+	<div class="form-group">
+			<div class="input-group">
+                <span class="input-group-addon"><!--<i class="fa fa-user">--><i class="glyphicon glyphicon-user"></i></span>
+                <input type="text" class="form-control" name="username" placeholder="Username" required="required">				
+            </div>
+        </div>
+            <div class="form-group">
+            	<div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                <input type="password" class="form-control" name="password" placeholder="password" required="required">				
+            </div>
+		</div>
+		<div class="form-group">
+            <button href="home.html" type="submit" class="btn btn-primary login-btn btn-block">Login</button>
+        </div>
+            <div class="clearfix">
+            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+            <a href="#" class="pull-right" style="margin-left: 63px; ">Forgot Password?</a>
+        </div>
+		<div class="or-seperator"><i>or</i></div>
+        <p class="text-center">Login with your social media account</p>
+	</div>
+ <div class="text-center social-btn">
+            <a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i>&nbsp; Facebook</a>
+            <a href="#" class="btn btn-info"><i class="fa fa-twitter"></i>&nbsp; Twitter</a>
+			<a href="#" class="btn btn-danger"><i class="fa fa-google"></i>&nbsp; Google</a>
+        </div>
+    </form>
+    <p class="text-center text-muted small" style="margin-top: -80px;">Don't have an account? <a href="reg.html">Sign up here!</a></p>
+</div>
+<center>
+<footer>
+	<p>This is My website. Don't copy it.</p>
+</footer>
+</center>
+</body>
+</html>

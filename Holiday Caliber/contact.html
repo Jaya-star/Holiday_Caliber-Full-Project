@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+		body{
+	  		padding-top:90px;
+			margin:50px;
+		
+		  }	
+		</style>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<meta charset="utf-8">
+		<title>Contact Us Form</title>
+		<link rel="stylesheet" href="contact/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+		
+	<div class="container">
+		  
+		    <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+		 <span class="icon-bar" ></span>
+		 <span class="icon-bar" ></span>
+		 <span class="icon-bar" ></span>
+		  </button>  
+		  </div>
+	  <div class="navbar-collapse collapse">
+		 
+		<ul class="nav navbar-nav">
+		
+		 <li ><a href="home.html"><span class="glyphicon glyphicon-home"> Home</span></a></li> 
+		 <li><a href="about.html"><span class="glyphicon glyphicon-info-sign"> About</span></a></li> 
+		 
+			<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+			Booking
+			<span class="caret"></span>
+			</a>
+			 <ul class="dropdown-menu">
+			<li><a href="#">Booking</a></li>
+			<li><a href="payment.html">Payment</a></li>
+			
+			</ul>
+			 </li>
+			<li class="active"><a  href="contact/contact.html"><span class="glyphicon glyphicon-earphone"> Contact</span></a></li> 
+			<li><a href="gallery.html"> Gallery</a></li> 
+			
+		 </ul>
+		  <form class="navbar-form navbar-left" role="search">
+		  <div class="form-group">
+		<input type="text" class="form-control"placeholder="enter your mail" >
+		</div>
+		  <button type="submit" class="btn btn-default">subscribe</button>
+		  </form>
+		  <ul class="nav navbar-nav navbar-right">
+		 <li ><a href="E:/project/login.html">Login</a></li> 
+		<li ><a href="E:/project/signup.html">Sign up</a></li> 
+		 
+		 </ul>
+		</div>
+		  
+		  
+		  </div>
+	
+	  
+	  </nav>
+		<div class="contact" id="contact">
+			<h2 onClick="toggleClass()">Get in touch with us <span>+</span></h2>
+			<form>
+				<div class="row">
+					<div class="col-2">
+						<label>First Name</label>
+						<input type="text" name="" class="text" placeholder="Jaya">
+					</div>
+					<div class="col-2">
+						<label>Last Name</label>
+						<input type="text" name="" class="text" placeholder="singh">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label>Email Address</label>
+						<input type="text" name="" class="text" placeholder="jaya@gamil.com">
+					</div>
+					<div class="col-2">
+						<label>Telephone</label>
+						<input type="text" name="" class="text" placeholder="+91-987-654-3210">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<label>Your Message</label>
+						<textarea placeholder="Write your message here..."></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<input type="submit" name="" value="Send message">
+					</div>
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript">
+			function toggleClass(){
+				var element = document.getElementById('contact');
+				element.classList.toggle("active")
+			}
+			 
+		</script>
+		
+	</body>
+</html>
